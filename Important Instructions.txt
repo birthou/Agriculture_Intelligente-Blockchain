@@ -1,0 +1,25 @@
+Étape 1. Lancez ganache! Devrait fonctionner avec de la  ou geth!
+
+Étape 2. Accédez au répertoire AgroChain et effectuez «npm install»
+        mettre à jour le dossier node_modules lorsque vous exécutez localement (installation npm)
+
+Étape 3: migration des truffes avec truffle migrate
+
+Étape 4: Remarque importante:
+
+Dans le répertoire src -> app.js
+
+Numéro de ligne 43820 --->
+
+changez la variable conaddress = "0x733fa0cfc10adee89e2e426b133f7b40706d5ea3";
+
+La valeur ci-dessus de l'adresse du contrat doit être remplacée par le résultat obtenu lors de la migration des truffles.
+
+Lorsque vous migrez des truffes, vous obtenez une adresse de contrat !!!
+Mettez cette valeur à conaddress !!!
+
+Étape 5: 'npm run dev' pour démarrer lite-server
+
+Étape 6: Aller à localhost: 3000
+
+Bertrand!
